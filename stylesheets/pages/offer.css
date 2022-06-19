@@ -1,0 +1,119 @@
+/* 오늘의 쇼핑 제안 */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  margin: 0;
+}
+
+section {
+  width: 1022px;
+  height: 354px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section > header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.shopping_img {
+  width: 30px;
+  height: 30px;
+  background-image: url("/assets/icon/shopping.svg");
+}
+
+.product_container {
+  display: flex;
+  gap: 5px;
+}
+
+.product_container_box {
+  width: 200px;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.product_container_box img {
+  width: 160px;
+  height: 160px;
+}
+
+.container_box_footer {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 172px;
+  height: 66px;
+  margin-top: 12px;
+}
+
+.container_box_footer > p:first-child {
+  margin-bottom: 12px;
+}
+
+.container_box_footer > p:nth-child(2) {
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+.rocket_logo {
+  display: flex;
+  margin-bottom: 4px;
+}
+
+.rocket_logo img {
+  width: 55px;
+  height: 16px;
+}
+
+.star {
+  display: flex;
+  align-items: center;
+}
+
+.star_img {
+  background-image: url("/assets/sprites/rating-stars.png");
+  width: 68px;
+  height: 12px;
+  margin-right: 4px;
+}
+
+.product_container_box:nth-child(4) > .star_img {
+  background-position: bottom;
+  background-size: cover;
+}
+
+button {
+  position: absolute;
+  width: 53px;
+  height: 30px;
+  border-radius: 0px 0px 4px 0px;
+  background-color: var(--color-red-500);
+  border: none;
+  color: var(--color-white);
+  left: 0px;
+  top: 0px;
+  font-size: 16px;
+}
+
+span {
+  position: absolute;
+  overflow: hidden;
+  padding: 0;
+  margin: -1px;
+  width: 1px;
+  height: 1px;
+  clip: rect(0, 0, 0, 0);
+}
