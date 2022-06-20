@@ -90,9 +90,37 @@ section > header {
   margin-right: 4px;
 }
 
-.product_container_box:nth-child(4) > .star_img {
+.star_one {
+  background-position: 0px 26px;
+  background-size: cover;
+}
+
+.star_two {
+  background-position: 0px 26px;
+  background-size: cover;
+}
+
+.star_three {
+  background-position: 0px 40px;
+  background-size: cover;
+}
+
+.star_four {
   background-position: bottom;
   background-size: cover;
+}
+
+.star_five {
+  background-position: 0px 40px;
+  background-size: cover;
+}
+
+.container_box_footer > p:nth-child(2) {
+  color: var(--color-gray-700);
+}
+
+.star p {
+  color: var(--color-gray-700);
 }
 
 button {
